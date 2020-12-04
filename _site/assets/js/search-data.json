@@ -20,96 +20,96 @@
     "url": "http://localhost:4000/notes/08235910-ec3d-4db1-a455-19ad954fed99.html",
     "relUrl": "/notes/08235910-ec3d-4db1-a455-19ad954fed99.html"
   },"3": {
-    "doc": "Postgress",
-    "title": "Postgress",
-    "hpath": "lang.sql.postgress",
-    "content": " ",
-    "url": "http://localhost:4000/notes/21fefcba-4a04-4196-96f2-d2be63b765f4.html",
-    "relUrl": "/notes/21fefcba-4a04-4196-96f2-d2be63b765f4.html"
-  },"4": {
     "doc": "Partial",
     "title": "Partial",
     "hpath": "lang.clojure.func.partial",
     "content": "(def add-5 (partial + 5)) (add-5 10) ; 15 . ",
     "url": "http://localhost:4000/notes/25876a61-5dc8-4b6a-8ceb-d1897d6e530a.html",
     "relUrl": "/notes/25876a61-5dc8-4b6a-8ceb-d1897d6e530a.html"
-  },"5": {
+  },"4": {
     "doc": "Badass-make-users-awesome",
     "title": "Badass: Making Users Awesome",
     "hpath": "book.badass-make-users-awesome",
     "content": "people.kathy-sierra . ",
     "url": "http://localhost:4000/notes/2dc1e2dd-2f34-456a-bb1b-33e282cbea3a.html#badass-making-users-awesome",
     "relUrl": "/notes/2dc1e2dd-2f34-456a-bb1b-33e282cbea3a.html#badass-making-users-awesome"
-  },"6": {
+  },"5": {
     "doc": "Badass-make-users-awesome",
     "title": "Prologue",
     "hpath": "book.badass-make-users-awesome",
     "content": "why do these keep selling but those don’t? What attributes do the bestsellers have that their competitors don’t? . luck always plays a role. Our job it to shrink the role luck plays. What drives desirability? Quality? . Tolerance for problems is a function of desirability. Desirability can drive perceived quality. The more we love something, the more we reframe “problems” as “not-problems”. How can we build desirability without out-spending, out-friending, or out-trending the competition? . You do it through word of mouth recommendations. It doesn’t matter about how the user views us. It matters about how the user views themselves. They have to think that they are awesome because they gained something from your product. The key attributes of sustained success don’t live in the product. The key attributes live in the user. Instead of looking for common attributes across successful products, we must look for common attributes across successful users of those products. www.it-ebooks.info . Our products basks in the glow of our users’ result with it. Users don’t evangelize to their friends because they like the product, they evangelize to their friends because they like their friends. | Imagine a tiny little utility tool “X”. | What does having X enable? | What can people now do because of X that they couldn’t do without it? | What can people now do better because of X? | What are people not doing now but could if they took advantage of all that X supports? | . Most products support a bigger, compelling, motivating context. The better you get at [x], the more detail you perceive in [x]. Dont just upgrade your product, upgrade your users. Sometimes badass users dont need to talk because the results are obvious. Word of Obvious (WOFO) is even better than Word of Mouth (WoM) . Its not about helping people feel badass. Its about helping them be badass. Dont make a better [x], make a better [user of x] . Dont make a better javascript tutorial, make a better javascript programmer. Continue to sell the context to your users after the purchase: . ",
     "url": "http://localhost:4000/notes/2dc1e2dd-2f34-456a-bb1b-33e282cbea3a.html#prologue",
     "relUrl": "/notes/2dc1e2dd-2f34-456a-bb1b-33e282cbea3a.html#prologue"
-  },"7": {
+  },"6": {
     "doc": "Badass-make-users-awesome",
     "title": "Chapter 1 Think Badass",
     "hpath": "book.badass-make-users-awesome",
     "content": "“Point of view is worth 80 IQ points” people.alan-kay #quotes . To create sustained success, create high-resolution, badass users. ",
     "url": "http://localhost:4000/notes/2dc1e2dd-2f34-456a-bb1b-33e282cbea3a.html#chapter-1-think-badass",
     "relUrl": "/notes/2dc1e2dd-2f34-456a-bb1b-33e282cbea3a.html#chapter-1-think-badass"
-  },"8": {
+  },"7": {
     "doc": "Badass-make-users-awesome",
     "title": "Badass-make-users-awesome",
     "hpath": "book.badass-make-users-awesome",
     "content": " ",
     "url": "http://localhost:4000/notes/2dc1e2dd-2f34-456a-bb1b-33e282cbea3a.html",
     "relUrl": "/notes/2dc1e2dd-2f34-456a-bb1b-33e282cbea3a.html"
-  },"9": {
+  },"8": {
     "doc": "Func",
     "title": "Func",
     "hpath": "lang.clojure.func",
     "content": " ",
     "url": "http://localhost:4000/notes/2de363d3-7d29-4f84-9614-e9a305da35d9.html",
     "relUrl": "/notes/2de363d3-7d29-4f84-9614-e9a305da35d9.html"
-  },"10": {
+  },"9": {
     "doc": "egghead",
     "title": "egghead",
     "hpath": "tag.egghead",
     "content": " ",
     "url": "http://localhost:4000/notes/3bacfbec-ae8e-435c-bf62-5f3a8a7d6ba7.html",
     "relUrl": "/notes/3bacfbec-ae8e-435c-bf62-5f3a8a7d6ba7.html"
-  },"11": {
+  },"10": {
     "doc": 404,
     "title": "404",
     "hpath": null,
     "content": "Page not found . ",
     "url": "http://localhost:4000/404.html#404",
     "relUrl": "/404.html#404"
-  },"12": {
+  },"11": {
     "doc": 404,
     "title": 404,
     "hpath": null,
     "content": " ",
     "url": "http://localhost:4000/404.html",
     "relUrl": "/404.html"
-  },"13": {
+  },"12": {
     "doc": "Ruby",
     "title": "Ruby",
     "hpath": "lang.ruby",
     "content": " ",
     "url": "http://localhost:4000/notes/4cbbd8df-e3a7-4d0c-bed4-ae7059fefb47.html",
     "relUrl": "/notes/4cbbd8df-e3a7-4d0c-bed4-ae7059fefb47.html"
-  },"14": {
+  },"13": {
     "doc": "Brew",
     "title": "Brew",
     "hpath": "p.brew",
     "content": "Install a package at a specific version: . brew install postgresql@12. ",
     "url": "http://localhost:4000/notes/5ace5d58-7151-4832-bd03-4002d5d1fb5c.html",
     "relUrl": "/notes/5ace5d58-7151-4832-bd03-4002d5d1fb5c.html"
-  },"15": {
+  },"14": {
     "doc": "Welcome",
     "title": "Welcome",
     "hpath": "welcome",
-    "content": "Hey 👋 . This is my digital garden. I use it to quickly reference my notes while I work each day. ",
+    "content": "Hey 👋 . This is my digital garden. I use it to quickly reference my notes while I work each day. Find me other places: . | video courses | blog | twitter | . ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
+  },"15": {
+    "doc": "Postgress",
+    "title": "Postgress",
+    "hpath": "lang.sql.postgress",
+    "content": " ",
+    "url": "http://localhost:4000/notes/60ec40ef-0d6d-4e7d-9a39-77a320aae9f8.html",
+    "relUrl": "/notes/60ec40ef-0d6d-4e7d-9a39-77a320aae9f8.html"
   },"16": {
     "doc": "Reset",
     "title": "Reset",
@@ -286,152 +286,152 @@
     "url": "http://localhost:4000/notes/b7f16a40-7358-4673-9c17-842e2783b0dd.html",
     "relUrl": "/notes/b7f16a40-7358-4673-9c17-842e2783b0dd.html"
   },"41": {
-    "doc": "Sql",
-    "title": "Sql",
-    "hpath": "lang.sql",
-    "content": " ",
-    "url": "http://localhost:4000/notes/bd5e7fde-4e3f-49ec-98bc-2b0d5d5ba7c7.html",
-    "relUrl": "/notes/bd5e7fde-4e3f-49ec-98bc-2b0d5d5ba7c7.html"
-  },"42": {
     "doc": "Rails",
     "title": "Rails",
     "hpath": "p.rails",
     "content": " ",
     "url": "http://localhost:4000/notes/bd694a74-11ba-4f34-88fb-cbac53d9c36d.html",
     "relUrl": "/notes/bd694a74-11ba-4f34-88fb-cbac53d9c36d.html"
-  },"43": {
+  },"42": {
     "doc": "Mailhog",
     "title": "Mailhog",
     "hpath": "p.mailhog",
     "content": "link . Locale mail service . ",
     "url": "http://localhost:4000/notes/c017b744-3322-4b74-90b3-8c82a0459026.html",
     "relUrl": "/notes/c017b744-3322-4b74-90b3-8c82a0459026.html"
-  },"44": {
+  },"43": {
     "doc": "2",
     "title": "— Day 2: Password Philosophy —",
     "hpath": "aoc.2020.2",
     "content": "Your flight departs in a few days from the coastal airport; the easiest way down to the coast from here is via toboggan. The shopkeeper at the North Pole Toboggan Rental Shop is having a bad day. “Something’s wrong with our computers; we can’t log in!” You ask if you can take a look. Their password database seems to be a little corrupted: some of the passwords wouldn’t have been allowed by the Official Toboggan Corporate Policy that was in effect when they were chosen. To try to debug the problem, they have created a list (your puzzle input) of passwords (according to the corrupted database) and the corporate policy when that password was set. For example, suppose you have the following list: . 1-3 a: abcde 1-3 b: cdefg 2-9 c: ccccccccc Each line gives the password policy and then the password. The password policy indicates the lowest and highest number of times a given letter must appear for the password to be valid. For example, 1-3 a means that the password must contain a at least 1 time and at most 3 times. In the above example, 2 passwords are valid. The middle password, cdefg, is not; it contains no instances of b, but needs at least 1. The first and third passwords are valid: they contain one a or nine c, both within the limits of their respective policies. How many passwords are valid according to their policies? . ",
     "url": "http://localhost:4000/notes/c87e3da9-f54f-45f3-bcfc-41144b37b75a.html#-day-2-password-philosophy-",
     "relUrl": "/notes/c87e3da9-f54f-45f3-bcfc-41144b37b75a.html#-day-2-password-philosophy-"
-  },"45": {
+  },"44": {
     "doc": "2",
     "title": "Show your work",
     "hpath": "aoc.2020.2",
     "content": "(def input (clojure.string/split (slurp \"aoc.2020.2.input.txt\") #\"\\n\")) (-&gt; input first (clojure.string/split ,,, #\" \") vec (interleave [:rule :char :pass] ,,,) vec ) (apply assoc {} (interleave [:rule :char :pass] [\"1\" \"2\" \"3\"])) (clojure.string/split (first input) #\" \") ;; =&gt; [\"1-14\" \"b:\" \"bbbbbbbbbbbbbbbbbbb\"] (defn parse-int [s] (Integer/parseInt (re-find #\"\\A-?\\d+\" s))) (defn transform-string [entry] (let [[rules key pass] (clojure.string/split entry #\" \") new-rules (map parse-int (clojure.string/split rules #\"-\")) new-key (str (first key))] [new-rules new-key pass])) (transform-string (first input)) (defn transform-input [current-input] (apply assoc {} (interleave [:rule :char :pass] (vec (transform-string current-input))))) (transform-input (first input)) ;; =&gt; {:rule (1 14), :char \"b\", :pass \"bbbbbbbbbbbbbbbbbbb\"} (map transform-input input) (def x {:rule '(1 14) :char \"b\" :pass \"bbbbbbbbbbbbbbbbbbb\"}) (count (vec (:pass x))) (defn count-pass [pass char] (reduce (fn [sum cur] (if (= (str cur) char) (inc sum) sum)) 0 (seq pass))) (char \"b\") (count-pass \"bbbbbb\" \"b\") (defn passes-rule [op number char pass] (op (count-pass pass char) number)) (passes-rule &gt; 5 \"b\" \"bbbbbbb\") (defn valid? [{:keys [rule char pass]}] (and (passes-rule &gt;= (first rule) char pass) (passes-rule &lt;= (last rule) char pass))) (valid? x) (passes-rule &gt; (first (:rule x)) (:char x) (:pass x)) (count (filter valid? (map transform-input input))) ; 548 . ",
     "url": "http://localhost:4000/notes/c87e3da9-f54f-45f3-bcfc-41144b37b75a.html#show-your-work",
     "relUrl": "/notes/c87e3da9-f54f-45f3-bcfc-41144b37b75a.html#show-your-work"
-  },"46": {
+  },"45": {
     "doc": "2",
     "title": "2",
     "hpath": "aoc.2020.2",
     "content": "link . ",
     "url": "http://localhost:4000/notes/c87e3da9-f54f-45f3-bcfc-41144b37b75a.html",
     "relUrl": "/notes/c87e3da9-f54f-45f3-bcfc-41144b37b75a.html"
-  },"47": {
+  },"46": {
     "doc": "Clojure",
     "title": "Functions",
     "hpath": "lang.clojure",
     "content": "From lang.clojure.func.slurp Go to text → (defn Example [] (def string1 (slurp \"Example.txt\")) (println string1)) . From lang.clojure.func.partial Go to text → (def add-5 (partial + 5)) (add-5 10) ; 15 . From lang.clojure.func.interleave Go to text → Turn an array of keys and an array of values into a map: . (apply assoc {} (interleave [:fruit :color :temp] [\"grape\" \"red\" \"hot\"])) . ",
     "url": "http://localhost:4000/notes/ccf25afb-a122-4920-acea-ade2cb22b572.html#functions",
     "relUrl": "/notes/ccf25afb-a122-4920-acea-ade2cb22b572.html#functions"
-  },"48": {
+  },"47": {
     "doc": "Clojure",
     "title": "Clojure",
     "hpath": "lang.clojure",
     "content": " ",
     "url": "http://localhost:4000/notes/ccf25afb-a122-4920-acea-ade2cb22b572.html",
     "relUrl": "/notes/ccf25afb-a122-4920-acea-ade2cb22b572.html"
-  },"49": {
+  },"48": {
     "doc": "Book",
     "title": "Book",
     "hpath": "book",
     "content": " ",
     "url": "http://localhost:4000/notes/d23c27bb-e61c-4fe1-8c55-f612121c1c0e.html",
     "relUrl": "/notes/d23c27bb-e61c-4fe1-8c55-f612121c1c0e.html"
-  },"50": {
+  },"49": {
     "doc": "Checkout",
     "title": "Checkout",
     "hpath": "cli.git.checkout",
     "content": "This will reset the some/file/path file. git checkout origin some/file/path . ",
     "url": "http://localhost:4000/notes/d5240d38-e17e-4192-b62c-fc5e25e69b49.html",
     "relUrl": "/notes/d5240d38-e17e-4192-b62c-fc5e25e69b49.html"
-  },"51": {
+  },"50": {
     "doc": "Saas",
     "title": "Saas",
     "hpath": "products.saas",
     "content": " ",
     "url": "http://localhost:4000/notes/da7262b9-88b5-411f-9041-14857aafc3d6.html",
     "relUrl": "/notes/da7262b9-88b5-411f-9041-14857aafc3d6.html"
-  },"52": {
+  },"51": {
     "doc": "Nullif",
     "title": "Nullif",
     "hpath": "lang.sql.postgress.nullif",
     "content": "You can use NULLIF to safely divide in SQL: . (count(1)::numeric / NULLIF(( SELECT count(1) FROM playlists WHERE state = 'published'), 0) . When these values match (NULLIF(0, 0)), null will be returned instead of dividing by 0. ",
     "url": "http://localhost:4000/notes/e2bbc71e-0e22-4c75-a2a4-dd9e5e057da2.html",
     "relUrl": "/notes/e2bbc71e-0e22-4c75-a2a4-dd9e5e057da2.html"
-  },"53": {
+  },"52": {
     "doc": "Subdomains",
     "title": "Subdomains",
     "hpath": "p.rails.networking.subdomains",
     "content": "How do I resolve a subdomain on my local machine? . Stack overflow link . You can use xip.io to alias subdomains your your local machine. ",
     "url": "http://localhost:4000/notes/e5bd9f6d-e909-4c8b-95e0-e83067c67a9b.html",
     "relUrl": "/notes/e5bd9f6d-e909-4c8b-95e0-e83067c67a9b.html"
-  },"54": {
+  },"53": {
     "doc": "Git",
     "title": "Git",
     "hpath": "cli.git",
     "content": " ",
     "url": "http://localhost:4000/notes/ec16222c-a846-4722-8be3-dc41faf6ab22.html",
     "relUrl": "/notes/ec16222c-a846-4722-8be3-dc41faf6ab22.html"
-  },"55": {
+  },"54": {
     "doc": "Time",
     "title": "Time",
     "hpath": "lang.ruby.time",
     "content": "Convert a timestamp to an actual time: . Time.at(1608463354) =&gt; 2020-12-20 11:22:34 +0000 . ",
     "url": "http://localhost:4000/notes/ed569868-899e-4dde-91a4-200692d4789d.html",
     "relUrl": "/notes/ed569868-899e-4dde-91a4-200692d4789d.html"
-  },"56": {
+  },"55": {
     "doc": "Lang",
     "title": "Lang",
     "hpath": "lang",
     "content": " ",
     "url": "http://localhost:4000/notes/ef5162eb-1f61-4878-a1c5-c9a776726629.html",
     "relUrl": "/notes/ef5162eb-1f61-4878-a1c5-c9a776726629.html"
-  },"57": {
+  },"56": {
     "doc": "Conj",
     "title": "Conj",
     "hpath": "lang.clojure.func.conj",
     "content": "use conj to add to a set. (conj #{1 3 4} 2) ; #{1 2 3 4} order not guaranteed . ",
     "url": "http://localhost:4000/notes/f0c4ef87-265c-43c9-9f14-846bdf1cb0db.html",
     "relUrl": "/notes/f0c4ef87-265c-43c9-9f14-846bdf1cb0db.html"
-  },"58": {
+  },"57": {
     "doc": "Postgres",
     "title": "Commands",
     "hpath": "p.postgres",
     "content": "brew services start postgres . ",
     "url": "http://localhost:4000/notes/f69464b8-4a4c-433d-98e1-1c77e18634de.html#commands",
     "relUrl": "/notes/f69464b8-4a4c-433d-98e1-1c77e18634de.html#commands"
-  },"59": {
+  },"58": {
     "doc": "Postgres",
     "title": "Errors",
     "hpath": "p.postgres",
     "content": "I was getting this error: . psql postgres psql: error: could not connect to server: Connection refused Is the server running on host \"localhost\" (::1) and accepting TCP/IP connections on port 5432? could not connect to server: Connection refused Is the server running on host \"localhost\" (127.0.0.1) and accepting TCP/IP connections on port 5432? . I recently updated openssl. I needed to install postrges@12 again. ",
     "url": "http://localhost:4000/notes/f69464b8-4a4c-433d-98e1-1c77e18634de.html#errors",
     "relUrl": "/notes/f69464b8-4a4c-433d-98e1-1c77e18634de.html#errors"
-  },"60": {
+  },"59": {
     "doc": "Postgres",
     "title": "Postgres",
     "hpath": "p.postgres",
     "content": " ",
     "url": "http://localhost:4000/notes/f69464b8-4a4c-433d-98e1-1c77e18634de.html",
     "relUrl": "/notes/f69464b8-4a4c-433d-98e1-1c77e18634de.html"
-  },"61": {
+  },"60": {
     "doc": "Gatsby",
     "title": "Gatsby",
     "hpath": "p.gatsby",
     "content": " ",
     "url": "http://localhost:4000/notes/f9c8a8de-3c16-41ca-bcd9-9a82cebe1d55.html",
     "relUrl": "/notes/f9c8a8de-3c16-41ca-bcd9-9a82cebe1d55.html"
+  },"61": {
+    "doc": "Sql",
+    "title": "Sql",
+    "hpath": "lang.sql",
+    "content": " ",
+    "url": "http://localhost:4000/notes/fc557416-aa84-468d-9380-74bf9c547c25.html",
+    "relUrl": "/notes/fc557416-aa84-468d-9380-74bf9c547c25.html"
   },"62": {
     "doc": "Advent of code",
     "title": "Advent of code",
