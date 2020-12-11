@@ -13,8 +13,6 @@ hpath: lang.clojure
 ---
 ## Functions
 
-
-
 <div class="portal-container">
 <div class="portal-head">
 <div class="portal-backlink" >
@@ -32,13 +30,8 @@ hpath: lang.clojure
    (println string1))
 ```
 
-
-
 </div>    
 </div>
-
-
-
 
 <div class="portal-container">
 <div class="portal-head">
@@ -57,13 +50,8 @@ hpath: lang.clojure
 ; 15
 ```
 
-
-
 </div>    
 </div>
-
-
-
 
 <div class="portal-container">
 <div class="portal-head">
@@ -83,8 +71,6 @@ Turn an array of keys and an array of values into a map:
    (interleave [:fruit :color :temp]
                ["grape" "red" "hot"]))
 ```
-
-
 
 </div>    
 </div>
