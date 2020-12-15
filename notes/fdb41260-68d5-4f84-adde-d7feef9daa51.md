@@ -2,7 +2,7 @@
 id: fdb41260-68d5-4f84-adde-d7feef9daa51
 title: Alfred
 desc: ''
-updated: 1608057339513
+updated: 1608057628079
 created: 1608056646130
 parent: 7d3efa53-c72c-4277-972c-7424e29353c1
 children: []
@@ -37,7 +37,7 @@ Right click the trigger, hover actions, and select Run NSAppleScript.
 
 This is where we will add our applescript:
 
-```js
+```applescript
 on alfred_script(q)
   set _win to false
   tell application "Microsoft Edge Dev"
