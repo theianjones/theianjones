@@ -1,9 +1,9 @@
 ---
-id: 2aee16eb-dc6e-47de-95ef-489145a409e2
+id: 0d8a3eb7-d77d-4c4c-a75b-d88af2dbfc32
 title: Vim
 desc: ''
-updated: 1608057628916
-created: 1608057628916
+updated: 1608132227418
+created: 1608132227418
 stub: true
 parent: 7d3efa53-c72c-4277-972c-7424e29353c1
 children:
