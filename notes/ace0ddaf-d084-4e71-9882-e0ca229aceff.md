@@ -7,6 +7,7 @@ created: 1607033721393
 stub: true
 parent: bd694a74-11ba-4f34-88fb-cbac53d9c36d
 children:
+  - 5e4aa63a-0f14-4269-a72c-7a054a1c37c7
   - a2fba9d2-7efa-4b1e-9d89-c03b0edb2b6d
 fname: p.rails.model
 hpath: p.rails.model
