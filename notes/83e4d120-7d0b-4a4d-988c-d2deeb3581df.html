@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+<html lang="en-US"><head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title> - Dendron</title>
+  
+
+  <link rel="shortcut icon" href="https://garden.ianjones.us/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://garden.ianjones.us/assets/css/just-the-docs-default.css">
+  <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+
+  
+    <script type="text/javascript" src="https://garden.ianjones.us/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="https://garden.ianjones.us/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+  
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://garden.ianjones.us/" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+        <ul class="nav-list">
+<li class="nav-list-item" id="root">
+<a id="a-root" href="https://garden.ianjones.us/" class="nav-list-link">Welcome</a>
+</li>
+<li class="nav-list-item" id="7d3efa53-c72c-4277-972c-7424e29353c1">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-7d3efa53-c72c-4277-972c-7424e29353c1" href="https://garden.ianjones.us/notes/7d3efa53-c72c-4277-972c-7424e29353c1.html" class="nav-list-link">Projects</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="e86ac3ab-dbe1-47a1-bcd7-9df0d0490b40">
+<a id="a-e86ac3ab-dbe1-47a1-bcd7-9df0d0490b40" href="https://garden.ianjones.us/notes/e86ac3ab-dbe1-47a1-bcd7-9df0d0490b40.html" class="nav-list-link">Quickstart</a>
+</li>
+<li class="nav-list-item" id="fdb41260-68d5-4f84-adde-d7feef9daa51">
+<a id="a-fdb41260-68d5-4f84-adde-d7feef9daa51" href="https://garden.ianjones.us/notes/fdb41260-68d5-4f84-adde-d7feef9daa51.html" class="nav-list-link">Alfred</a>
+</li>
+<li class="nav-list-item" id="3428d5f9-79b9-42e0-8767-e65db1e03b39">
+<a id="a-3428d5f9-79b9-42e0-8767-e65db1e03b39" href="https://garden.ianjones.us/notes/3428d5f9-79b9-42e0-8767-e65db1e03b39.html" class="nav-list-link">Basecamp</a>
+</li>
+<li class="nav-list-item" id="5ace5d58-7151-4832-bd03-4002d5d1fb5c">
+<a id="a-5ace5d58-7151-4832-bd03-4002d5d1fb5c" href="https://garden.ianjones.us/notes/5ace5d58-7151-4832-bd03-4002d5d1fb5c.html" class="nav-list-link">Brew</a>
+</li>
+<li class="nav-list-item" id="e0857659-ed86-48c9-a233-b1420a297e6d">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-e0857659-ed86-48c9-a233-b1420a297e6d" href="https://garden.ianjones.us/notes/e0857659-ed86-48c9-a233-b1420a297e6d.html" class="nav-list-link">Docker</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="d50fb553-ce4f-4c42-a1f7-d27438b16cd4">
+<a id="a-d50fb553-ce4f-4c42-a1f7-d27438b16cd4" href="https://garden.ianjones.us/notes/d50fb553-ce4f-4c42-a1f7-d27438b16cd4.html" class="nav-list-link">Vs-k8</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="004c302d-c113-499c-ae20-6909eb244b86">
+<a id="a-004c302d-c113-499c-ae20-6909eb244b86" href="https://garden.ianjones.us/notes/004c302d-c113-499c-ae20-6909eb244b86.html" class="nav-list-link">EStimator</a>
+</li>
+<li class="nav-list-item" id="10ba35fc-de46-4402-a8f7-f425ab89658c">
+<a id="a-10ba35fc-de46-4402-a8f7-f425ab89658c" href="https://garden.ianjones.us/notes/10ba35fc-de46-4402-a8f7-f425ab89658c.html" class="nav-list-link">Egghead-rails</a>
+</li>
+<li class="nav-list-item" id="c457e8b9-4a5e-4f5d-bcd6-0fa283916522">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-c457e8b9-4a5e-4f5d-bcd6-0fa283916522" href="https://garden.ianjones.us/notes/c457e8b9-4a5e-4f5d-bcd6-0fa283916522.html" class="nav-list-link">Emacs</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="9b4487a9-6891-4f4e-a80b-9f7431c22d77">
+<a id="a-9b4487a9-6891-4f4e-a80b-9f7431c22d77" href="https://garden.ianjones.us/notes/9b4487a9-6891-4f4e-a80b-9f7431c22d77.html" class="nav-list-link">Dired</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="f9c8a8de-3c16-41ca-bcd9-9a82cebe1d55">
+<a id="a-f9c8a8de-3c16-41ca-bcd9-9a82cebe1d55" href="https://garden.ianjones.us/notes/f9c8a8de-3c16-41ca-bcd9-9a82cebe1d55.html" class="nav-list-link">Gatsby</a>
+</li>
+<li class="nav-list-item" id="c017b744-3322-4b74-90b3-8c82a0459026">
+<a id="a-c017b744-3322-4b74-90b3-8c82a0459026" href="https://garden.ianjones.us/notes/c017b744-3322-4b74-90b3-8c82a0459026.html" class="nav-list-link">Mailhog</a>
+</li>
+<li class="nav-list-item" id="ab4dee95-803f-48c0-9eab-460bdab35be5">
+<a id="a-ab4dee95-803f-48c0-9eab-460bdab35be5" href="https://garden.ianjones.us/notes/ab4dee95-803f-48c0-9eab-460bdab35be5.html" class="nav-list-link">Open-ssl</a>
+</li>
+<li class="nav-list-item" id="f69464b8-4a4c-433d-98e1-1c77e18634de">
+<a id="a-f69464b8-4a4c-433d-98e1-1c77e18634de" href="https://garden.ianjones.us/notes/f69464b8-4a4c-433d-98e1-1c77e18634de.html" class="nav-list-link">Postgres</a>
+</li>
+<li class="nav-list-item" id="bd694a74-11ba-4f34-88fb-cbac53d9c36d">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-bd694a74-11ba-4f34-88fb-cbac53d9c36d" href="https://garden.ianjones.us/notes/bd694a74-11ba-4f34-88fb-cbac53d9c36d.html" class="nav-list-link">Rails</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="ace0ddaf-d084-4e71-9882-e0ca229aceff">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-ace0ddaf-d084-4e71-9882-e0ca229aceff" href="https://garden.ianjones.us/notes/ace0ddaf-d084-4e71-9882-e0ca229aceff.html" class="nav-list-link">Model</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="5e4aa63a-0f14-4269-a72c-7a054a1c37c7">
+<a id="a-5e4aa63a-0f14-4269-a72c-7a054a1c37c7" href="https://garden.ianjones.us/notes/5e4aa63a-0f14-4269-a72c-7a054a1c37c7.html" class="nav-list-link">Find_in_batches</a>
+</li>
+<li class="nav-list-item" id="a2fba9d2-7efa-4b1e-9d89-c03b0edb2b6d">
+<a id="a-a2fba9d2-7efa-4b1e-9d89-c03b0edb2b6d" href="https://garden.ianjones.us/notes/a2fba9d2-7efa-4b1e-9d89-c03b0edb2b6d.html" class="nav-list-link">Where</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="0513aedb-19d2-46c1-9556-abcf48e9b761">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-0513aedb-19d2-46c1-9556-abcf48e9b761" href="https://garden.ianjones.us/notes/0513aedb-19d2-46c1-9556-abcf48e9b761.html" class="nav-list-link">Networking</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="afe29c50-c9fb-45b2-8655-aa7382cc306f">
+<a id="a-afe29c50-c9fb-45b2-8655-aa7382cc306f" href="https://garden.ianjones.us/notes/afe29c50-c9fb-45b2-8655-aa7382cc306f.html" class="nav-list-link">Server</a>
+</li>
+<li class="nav-list-item" id="e5bd9f6d-e909-4c8b-95e0-e83067c67a9b">
+<a id="a-e5bd9f6d-e909-4c8b-95e0-e83067c67a9b" href="https://garden.ianjones.us/notes/e5bd9f6d-e909-4c8b-95e0-e83067c67a9b.html" class="nav-list-link">Subdomains</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="b7f16a40-7358-4673-9c17-842e2783b0dd">
+<a id="a-b7f16a40-7358-4673-9c17-842e2783b0dd" href="https://garden.ianjones.us/notes/b7f16a40-7358-4673-9c17-842e2783b0dd.html" class="nav-list-link">Sessions</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="b6b7471e-0b30-46a1-8e82-7287b39c331b">
+<a id="a-b6b7471e-0b30-46a1-8e82-7287b39c331b" href="https://garden.ianjones.us/notes/b6b7471e-0b30-46a1-8e82-7287b39c331b.html" class="nav-list-link">Rspec</a>
+</li>
+<li class="nav-list-item" id="56e5227c-6fad-4161-bd02-c3d2a0a79abc">
+<a id="a-56e5227c-6fad-4161-bd02-c3d2a0a79abc" href="https://garden.ianjones.us/notes/56e5227c-6fad-4161-bd02-c3d2a0a79abc.html" class="nav-list-link">Shape-up</a>
+</li>
+<li class="nav-list-item" id="700dbd2d-d682-4514-995a-b72f6c832118">
+<a id="a-700dbd2d-d682-4514-995a-b72f6c832118" href="https://garden.ianjones.us/notes/700dbd2d-d682-4514-995a-b72f6c832118.html" class="nav-list-link">Simple Scripts</a>
+</li>
+<li class="nav-list-item" id="04b98cc0-7bd7-4b34-8877-c76ed2894caa">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-04b98cc0-7bd7-4b34-8877-c76ed2894caa" href="https://garden.ianjones.us/notes/04b98cc0-7bd7-4b34-8877-c76ed2894caa.html" class="nav-list-link">Stripe</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="a9ecd3e6-45b1-47b5-b65a-bc9691e8f0aa">
+<a id="a-a9ecd3e6-45b1-47b5-b65a-bc9691e8f0aa" href="https://garden.ianjones.us/notes/a9ecd3e6-45b1-47b5-b65a-bc9691e8f0aa.html" class="nav-list-link">Subscription</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="06ac5f5c-6ae5-4e39-a3bd-9cf6279bd631">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-06ac5f5c-6ae5-4e39-a3bd-9cf6279bd631" href="https://garden.ianjones.us/notes/06ac5f5c-6ae5-4e39-a3bd-9cf6279bd631.html" class="nav-list-link">Vim</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="f9161f53-f7da-4014-ab4d-f1e3838a4249">
+<a id="a-f9161f53-f7da-4014-ab4d-f1e3838a4249" href="https://garden.ianjones.us/notes/f9161f53-f7da-4014-ab4d-f1e3838a4249.html" class="nav-list-link">S</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="31fe6772-4dcb-409e-91a4-1a4711949c79">
+<a id="a-31fe6772-4dcb-409e-91a4-1a4711949c79" href="https://garden.ianjones.us/notes/31fe6772-4dcb-409e-91a4-1a4711949c79.html" class="nav-list-link">Vscode</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="6eeb71d1-13d3-4955-8fca-97a15444ecb0">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-6eeb71d1-13d3-4955-8fca-97a15444ecb0" href="https://garden.ianjones.us/notes/6eeb71d1-13d3-4955-8fca-97a15444ecb0.html" class="nav-list-link">Products</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="da7262b9-88b5-411f-9041-14857aafc3d6">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-da7262b9-88b5-411f-9041-14857aafc3d6" href="https://garden.ianjones.us/notes/da7262b9-88b5-411f-9041-14857aafc3d6.html" class="nav-list-link">Saas</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="78d56386-0896-43ac-a894-24e1f4aecd97">
+<a id="a-78d56386-0896-43ac-a894-24e1f4aecd97" href="https://garden.ianjones.us/notes/78d56386-0896-43ac-a894-24e1f4aecd97.html" class="nav-list-link">Ahrefs</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="8f5b1732-07a8-4cfc-bc1a-ffd9c8d37f00">
+<a id="a-8f5b1732-07a8-4cfc-bc1a-ffd9c8d37f00" href="https://garden.ianjones.us/notes/8f5b1732-07a8-4cfc-bc1a-ffd9c8d37f00.html" class="nav-list-link">Saml</a>
+</li>
+<li class="nav-list-item" id="99d17837-f4e9-484f-a2d5-98f521a650dd">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-99d17837-f4e9-484f-a2d5-98f521a650dd" href="https://garden.ianjones.us/notes/99d17837-f4e9-484f-a2d5-98f521a650dd.html" class="nav-list-link">Tag</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="93258c86-5484-43a3-a1ca-2dbf24fcfaf0">
+<a id="a-93258c86-5484-43a3-a1ca-2dbf24fcfaf0" href="https://garden.ianjones.us/notes/93258c86-5484-43a3-a1ca-2dbf24fcfaf0.html" class="nav-list-link">Inbox</a>
+</li>
+<li class="nav-list-item" id="8e8ff083-9d32-4530-a8da-ef001c1b03ad">
+<a id="a-8e8ff083-9d32-4530-a8da-ef001c1b03ad" href="https://garden.ianjones.us/notes/8e8ff083-9d32-4530-a8da-ef001c1b03ad.html" class="nav-list-link">Pull-request</a>
+</li>
+<li class="nav-list-item" id="6561da50-a899-49e6-96c2-1555ae87fe1d">
+<a id="a-6561da50-a899-49e6-96c2-1555ae87fe1d" href="https://garden.ianjones.us/notes/6561da50-a899-49e6-96c2-1555ae87fe1d.html" class="nav-list-link">Quotes</a>
+</li>
+<li class="nav-list-item" id="6abc5b95-d29d-461a-9066-da42e467222f">
+<a id="a-6abc5b95-d29d-461a-9066-da42e467222f" href="https://garden.ianjones.us/notes/6abc5b95-d29d-461a-9066-da42e467222f.html" class="nav-list-link">Todo</a>
+</li>
+<li class="nav-list-item" id="3bacfbec-ae8e-435c-bf62-5f3a8a7d6ba7">
+<a id="a-3bacfbec-ae8e-435c-bf62-5f3a8a7d6ba7" href="https://garden.ianjones.us/notes/3bacfbec-ae8e-435c-bf62-5f3a8a7d6ba7.html" class="nav-list-link">egghead</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="08235910-ec3d-4db1-a455-19ad954fed99">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-08235910-ec3d-4db1-a455-19ad954fed99" href="https://garden.ianjones.us/notes/08235910-ec3d-4db1-a455-19ad954fed99.html" class="nav-list-link">Terms</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="79ae17da-3214-4d85-83ca-1df9c6fb6ab5">
+<a id="a-79ae17da-3214-4d85-83ca-1df9c6fb6ab5" href="https://garden.ianjones.us/notes/79ae17da-3214-4d85-83ca-1df9c6fb6ab5.html" class="nav-list-link">Overton-window</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="ef5162eb-1f61-4878-a1c5-c9a776726629">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-ef5162eb-1f61-4878-a1c5-c9a776726629" href="https://garden.ianjones.us/notes/ef5162eb-1f61-4878-a1c5-c9a776726629.html" class="nav-list-link">Lang</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="ccf25afb-a122-4920-acea-ade2cb22b572">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-ccf25afb-a122-4920-acea-ade2cb22b572" href="https://garden.ianjones.us/notes/ccf25afb-a122-4920-acea-ade2cb22b572.html" class="nav-list-link">Clojure</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="2de363d3-7d29-4f84-9614-e9a305da35d9">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-2de363d3-7d29-4f84-9614-e9a305da35d9" href="https://garden.ianjones.us/notes/2de363d3-7d29-4f84-9614-e9a305da35d9.html" class="nav-list-link">Func</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="f0c4ef87-265c-43c9-9f14-846bdf1cb0db">
+<a id="a-f0c4ef87-265c-43c9-9f14-846bdf1cb0db" href="https://garden.ianjones.us/notes/f0c4ef87-265c-43c9-9f14-846bdf1cb0db.html" class="nav-list-link">Conj</a>
+</li>
+<li class="nav-list-item" id="aebace56-ddfb-4f76-828e-d1fdd3f514ca">
+<a id="a-aebace56-ddfb-4f76-828e-d1fdd3f514ca" href="https://garden.ianjones.us/notes/aebace56-ddfb-4f76-828e-d1fdd3f514ca.html" class="nav-list-link">Interleave</a>
+</li>
+<li class="nav-list-item" id="25876a61-5dc8-4b6a-8ceb-d1897d6e530a">
+<a id="a-25876a61-5dc8-4b6a-8ceb-d1897d6e530a" href="https://garden.ianjones.us/notes/25876a61-5dc8-4b6a-8ceb-d1897d6e530a.html" class="nav-list-link">Partial</a>
+</li>
+<li class="nav-list-item" id="83e4d120-7d0b-4a4d-988c-d2deeb3581df">
+<a id="a-83e4d120-7d0b-4a4d-988c-d2deeb3581df" href="https://garden.ianjones.us/notes/83e4d120-7d0b-4a4d-988c-d2deeb3581df.html" class="nav-list-link">Slurp</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="4cbbd8df-e3a7-4d0c-bed4-ae7059fefb47">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-4cbbd8df-e3a7-4d0c-bed4-ae7059fefb47" href="https://garden.ianjones.us/notes/4cbbd8df-e3a7-4d0c-bed4-ae7059fefb47.html" class="nav-list-link">Ruby</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="2b9d88e9-c95b-40a0-9771-f0cbb08e3903">
+<a id="a-2b9d88e9-c95b-40a0-9771-f0cbb08e3903" href="https://garden.ianjones.us/notes/2b9d88e9-c95b-40a0-9771-f0cbb08e3903.html" class="nav-list-link">Console</a>
+</li>
+<li class="nav-list-item" id="3c38c7df-faed-426b-82cf-7cb4476bc8ac">
+<a id="a-3c38c7df-faed-426b-82cf-7cb4476bc8ac" href="https://garden.ianjones.us/notes/3c38c7df-faed-426b-82cf-7cb4476bc8ac.html" class="nav-list-link">Json</a>
+</li>
+<li class="nav-list-item" id="b8e91dfa-62a8-4e05-a272-0640a2ca532a">
+<a id="a-b8e91dfa-62a8-4e05-a272-0640a2ca532a" href="https://garden.ianjones.us/notes/b8e91dfa-62a8-4e05-a272-0640a2ca532a.html" class="nav-list-link">Metaprogramming</a>
+</li>
+<li class="nav-list-item" id="b39cd217-8ad4-44b3-9949-5259170dfd1f">
+<a id="a-b39cd217-8ad4-44b3-9949-5259170dfd1f" href="https://garden.ianjones.us/notes/b39cd217-8ad4-44b3-9949-5259170dfd1f.html" class="nav-list-link">String</a>
+</li>
+<li class="nav-list-item" id="dc952017-3fc6-492c-9955-507c4c338e05">
+<a id="a-dc952017-3fc6-492c-9955-507c4c338e05" href="https://garden.ianjones.us/notes/dc952017-3fc6-492c-9955-507c4c338e05.html" class="nav-list-link">Struct</a>
+</li>
+<li class="nav-list-item" id="4ebe242a-e5bb-4fe7-aee2-60c544392f96">
+<a id="a-4ebe242a-e5bb-4fe7-aee2-60c544392f96" href="https://garden.ianjones.us/notes/4ebe242a-e5bb-4fe7-aee2-60c544392f96.html" class="nav-list-link">Throw</a>
+</li>
+<li class="nav-list-item" id="ed569868-899e-4dde-91a4-200692d4789d">
+<a id="a-ed569868-899e-4dde-91a4-200692d4789d" href="https://garden.ianjones.us/notes/ed569868-899e-4dde-91a4-200692d4789d.html" class="nav-list-link">Time</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="5da3edc0-d4d5-4e53-b99f-92d29d9bba75">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-5da3edc0-d4d5-4e53-b99f-92d29d9bba75" href="https://garden.ianjones.us/notes/5da3edc0-d4d5-4e53-b99f-92d29d9bba75.html" class="nav-list-link">Sql</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="812b862c-fad1-4ad1-a95c-d93b4a54b27c">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-812b862c-fad1-4ad1-a95c-d93b4a54b27c" href="https://garden.ianjones.us/notes/812b862c-fad1-4ad1-a95c-d93b4a54b27c.html" class="nav-list-link">Postgress</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="e2bbc71e-0e22-4c75-a2a4-dd9e5e057da2">
+<a id="a-e2bbc71e-0e22-4c75-a2a4-dd9e5e057da2" href="https://garden.ianjones.us/notes/e2bbc71e-0e22-4c75-a2a4-dd9e5e057da2.html" class="nav-list-link">Nullif</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="91cff2b3-1121-41f0-aefd-06a6d7e80111">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-91cff2b3-1121-41f0-aefd-06a6d7e80111" href="https://garden.ianjones.us/notes/91cff2b3-1121-41f0-aefd-06a6d7e80111.html" class="nav-list-link">Cli</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="bb5d59e8-8552-4a17-9aa8-0a5cbef8210e">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-bb5d59e8-8552-4a17-9aa8-0a5cbef8210e" href="https://garden.ianjones.us/notes/bb5d59e8-8552-4a17-9aa8-0a5cbef8210e.html" class="nav-list-link">Cd</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="1547133a-8794-4862-9f37-d3884e624b63">
+<a id="a-1547133a-8794-4862-9f37-d3884e624b63" href="https://garden.ianjones.us/notes/1547133a-8794-4862-9f37-d3884e624b63.html" class="nav-list-link">Cmd</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="5f225679-c337-4c4d-865d-367954b35d20">
+<a id="a-5f225679-c337-4c4d-865d-367954b35d20" href="https://garden.ianjones.us/notes/5f225679-c337-4c4d-865d-367954b35d20.html" class="nav-list-link">Fzf</a>
+</li>
+<li class="nav-list-item" id="ec16222c-a846-4722-8be3-dc41faf6ab22">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-ec16222c-a846-4722-8be3-dc41faf6ab22" href="https://garden.ianjones.us/notes/ec16222c-a846-4722-8be3-dc41faf6ab22.html" class="nav-list-link">Git</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="a083a6fa-ab38-4d7a-9607-792f6d02fa87">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-a083a6fa-ab38-4d7a-9607-792f6d02fa87" href="https://garden.ianjones.us/notes/a083a6fa-ab38-4d7a-9607-792f6d02fa87.html" class="nav-list-link">Cmd</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="8bf211fc-d058-47d5-9bc3-5d8db60be79f">
+<a id="a-8bf211fc-d058-47d5-9bc3-5d8db60be79f" href="https://garden.ianjones.us/notes/8bf211fc-d058-47d5-9bc3-5d8db60be79f.html" class="nav-list-link">Branch</a>
+</li>
+<li class="nav-list-item" id="d5240d38-e17e-4192-b62c-fc5e25e69b49">
+<a id="a-d5240d38-e17e-4192-b62c-fc5e25e69b49" href="https://garden.ianjones.us/notes/d5240d38-e17e-4192-b62c-fc5e25e69b49.html" class="nav-list-link">Checkout</a>
+</li>
+<li class="nav-list-item" id="6378827c-6928-4239-8101-d7187557c42a">
+<a id="a-6378827c-6928-4239-8101-d7187557c42a" href="https://garden.ianjones.us/notes/6378827c-6928-4239-8101-d7187557c42a.html" class="nav-list-link">Reset</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="82d4605e-b0df-40ac-9d6d-72684f963ee5">
+<a id="a-82d4605e-b0df-40ac-9d6d-72684f963ee5" href="https://garden.ianjones.us/notes/82d4605e-b0df-40ac-9d6d-72684f963ee5.html" class="nav-list-link">Netstat</a>
+</li>
+<li class="nav-list-item" id="ba7a1803-fe6f-4a4c-80ad-42dceddc8a7e">
+<a id="a-ba7a1803-fe6f-4a4c-80ad-42dceddc8a7e" href="https://garden.ianjones.us/notes/ba7a1803-fe6f-4a4c-80ad-42dceddc8a7e.html" class="nav-list-link">Security</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="d23c27bb-e61c-4fe1-8c55-f612121c1c0e">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-d23c27bb-e61c-4fe1-8c55-f612121c1c0e" href="https://garden.ianjones.us/notes/d23c27bb-e61c-4fe1-8c55-f612121c1c0e.html" class="nav-list-link">Book</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="2dc1e2dd-2f34-456a-bb1b-33e282cbea3a">
+<a id="a-2dc1e2dd-2f34-456a-bb1b-33e282cbea3a" href="https://garden.ianjones.us/notes/2dc1e2dd-2f34-456a-bb1b-33e282cbea3a.html" class="nav-list-link">Badass-make-users-awesome</a>
+</li>
+<li class="nav-list-item" id="09e58a88-9f89-4e0f-b117-aea007a42901">
+<a id="a-09e58a88-9f89-4e0f-b117-aea007a42901" href="https://garden.ianjones.us/notes/09e58a88-9f89-4e0f-b117-aea007a42901.html" class="nav-list-link">Refactoring</a>
+</li>
+<li class="nav-list-item" id="29f392b6-0f60-48d7-bfff-87eb3b0ebc72">
+<a id="a-29f392b6-0f60-48d7-bfff-87eb3b0ebc72" href="https://garden.ianjones.us/notes/29f392b6-0f60-48d7-bfff-87eb3b0ebc72.html" class="nav-list-link">Shape-up</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="fec9e85e-5b85-480c-83e0-3501da87a5bc">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-fec9e85e-5b85-480c-83e0-3501da87a5bc" href="https://garden.ianjones.us/notes/fec9e85e-5b85-480c-83e0-3501da87a5bc.html" class="nav-list-link">Advent of code</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="963a7a60-71e9-4775-a8e2-38a9e479e5d7">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-963a7a60-71e9-4775-a8e2-38a9e479e5d7" href="https://garden.ianjones.us/notes/963a7a60-71e9-4775-a8e2-38a9e479e5d7.html" class="nav-list-link">2020</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="9558180f-ac4f-48ad-bdc8-8cc54aebf51e">
+<a id="a-9558180f-ac4f-48ad-bdc8-8cc54aebf51e" href="https://garden.ianjones.us/notes/9558180f-ac4f-48ad-bdc8-8cc54aebf51e.html" class="nav-list-link">1</a>
+</li>
+<li class="nav-list-item" id="c87e3da9-f54f-45f3-bcfc-41144b37b75a">
+<a id="a-c87e3da9-f54f-45f3-bcfc-41144b37b75a" href="https://garden.ianjones.us/notes/c87e3da9-f54f-45f3-bcfc-41144b37b75a.html" class="nav-list-link">2</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="e80317a3-08c1-40e2-ac68-85bea44ab41f">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-e80317a3-08c1-40e2-ac68-85bea44ab41f" href="https://garden.ianjones.us/notes/e80317a3-08c1-40e2-ac68-85bea44ab41f.html" class="nav-list-link">Articles</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="467da896-8a1f-4295-b854-8a37d16886bd">
+<a id="a-467da896-8a1f-4295-b854-8a37d16886bd" href="https://garden.ianjones.us/notes/467da896-8a1f-4295-b854-8a37d16886bd.html" class="nav-list-link">Joel-hooks</a>
+</li>
+</ul>
+</li>
+<li class="nav-list-item" id="3e06bc1e-23d2-4bbe-be7c-5fec6604de48">
+<a href="" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+<a id="a-3e06bc1e-23d2-4bbe-be7c-5fec6604de48" href="https://garden.ianjones.us/notes/3e06bc1e-23d2-4bbe-be7c-5fec6604de48.html" class="nav-list-link">Learning</a>
+<ul class="nav-list">
+<li class="nav-list-item" id="80d33207-7e1f-4b0e-8ef8-34f04e335622">
+<a id="a-80d33207-7e1f-4b0e-8ef8-34f04e335622" href="https://garden.ianjones.us/notes/80d33207-7e1f-4b0e-8ef8-34f04e335622.html" class="nav-list-link">Mit-missing-cs-semester</a>
+</li>
+</ul>
+</li>
+</ul>
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+  
+        
+
+        
+        <pre class="language-clojure"><code class="language-clojure"><span class="token punctuation">(</span><span class="token keyword">defn</span> Example <span class="token punctuation">[</span><span class="token punctuation">]</span><br>   <span class="token punctuation">(</span><span class="token keyword">def</span> string1 <span class="token punctuation">(</span><span class="token keyword">slurp</span> <span class="token string">"Example.txt"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><br>   <span class="token punctuation">(</span><span class="token keyword">println</span> string1<span class="token punctuation">)</span><span class="token punctuation">)</span></code></pre>
+<h2></h2>
+
+
+        
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+                
+                
+              </div>
+            
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+</body>
+</html>
