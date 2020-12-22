@@ -1,0 +1,37 @@
+version: 1
+vaults: []
+site:
+  copyAssets: true
+  siteHierarchies:
+    - welcome
+    - p
+    - products
+    - saml
+    - tag
+    - terms
+    - lang
+    - cli
+    - book
+    - aoc
+    - articles
+    - learning
+  siteRootDir: docs
+  usePrettyRefs: true
+  siteIndex: welcome
+  siteRepoDir: 'git@github.com:theianjones/theianjones'
+  githubCname: 'garden.ianjones.us'
+  siteUrl: 'garden.ianjones.us'
+  tagline: 'My digital garden'
+  description: 'Work in progress notes and reference material'
+  card: summary
+  username: _jonesian
+  author:
+  twitter: _jonesian
+  title: Ian's Garden
+  logo: '/assets/images/logo.png'
+  defaults:
+    - scope:
+      path: 'notes' # an empty string here means all files in the project
+      values:
+      layout: 'default'
+      image: '/assets/images/logo.png'
