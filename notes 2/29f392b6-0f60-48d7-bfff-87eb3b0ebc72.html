@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html lang="en-US"><head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Shape-up - Ian's Garden</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="garden.ianjones.us/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="garden.ianjones.us/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="garden.ianjones.us/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+
+  
+  <script
+    type="text/javascript"
+    src="garden.ianjones.us/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+  
+<meta name="description" content="Work in progress notes and reference material">
+<meta name="author" content="">
+
+<link rel="canonical" href="garden.ianjones.us/notes/29f392b6-0f60-48d7-bfff-87eb3b0ebc72.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="garden.ianjones.us/notes/29f392b6-0f60-48d7-bfff-87eb3b0ebc72.html">
+<meta property="og:description" content="Work in progress notes and reference material">
+<meta property="og:image" content="garden.ianjones.us/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@_jonesian">
+<meta name="twitter:url" content="garden.ianjones.us/notes/29f392b6-0f60-48d7-bfff-87eb3b0ebc72.html">
+<meta name="twitter:description" content="Work in progress notes and reference material">
+<meta name="twitter:image" content="garden.ianjones.us/logo.png">
+
+
+  <meta property="og:title" content="Shape-up - Ian's Garden" />
+  <meta name="twitter:title" content="Shape-up - Ian's Garden" />
+</head>
+
+
+<body style="">
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+  
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="garden.ianjones.us" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Ian's Garden" aria-label="Search Ian's Garden" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="garden.ianjones.us/notes/d23c27bb-e61c-4fe1-8c55-f612121c1c0e.html">Book</a></li><li class="breadcrumb-nav-list-item">Shape-up</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+  
+        
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Shape-up">
+    
+    <meta itemprop="datePublished" content="2020-12-09T11:28:18+00:00">
+    <meta itemprop="dateModified" content="2020-12-09T12:48:26+00:00">
+
+    <div class="page__inner-wrap">
+      
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h2 id="roam-notes"><a aria-hidden="true" class="anchor-heading" href="#roam-notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Roam Notes</h2>
+<ul>
+<li><a href="garden.ianjones.us/notes/3428d5f9-79b9-42e0-8767-e65db1e03b39.html">p.basecamp</a></li>
+<li>Outline
+<ul>
+<li>Chapter 1 Introduction
+<ul>
+<li><a href="https://basecamp.com/shapeup/0.3-chapter-01">link</a></li>
+<li>There are growing pains as software teams begin to grow
+<ul>
+<li>projects go on and on</li>
+<li>PM can find time to think strategically about the product</li>
+<li>Why cant we ship features?</li>
+</ul>
+</li>
+<li>Book in Three Parts:
+<ul>
+<li>Part 1 Shaping
+<ul>
+<li>pre-work on projects we need to do before they are ready to schedule</li>
+</ul>
+</li>
+<li>Part 2 Betting
+<ul>
+<li>how to choose projects and decide what todo with your six weeks time</li>
+</ul>
+</li>
+<li>Part 3 Building
+<ul>
+<li>How teams figure out what to do</li>
+<li>How to integrate design and programming</li>
+<li>How to make hard calls to finish the project on time</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Part 1 Shaping
+<ul>
+<li><a href="https://basecamp.com/shapeup/1.1-chapter-02">Chapter 2 Principles of Shaping</a>
+<ul>
+<li>We need to shape work at the right level of abstraction
+<ul>
+<li>not to vague</li>
+<li>not to concrete</li>
+</ul>
+</li>
+<li>Wireframes are too concrete</li>
+<li>Words are too abstract</li>
+<li>Steps to Shaping a project</li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/1.2-chapter-03">Chapter 3 Set Boundaries</a>
+<ul>
+<li>We need to set boundaries around the raw ideas that come in to frame discussion properly</li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/1.3-chapter-04">Chapter 4 Find the Elements</a>
+<ul>
+<li>Once you've set up the constraints, its time to talk about the elements of the software solution that will solve the problem</li>
+<li>We are trying to answer these questions:
+<ul>
+<li>Where in the current system does the new thing fit?</li>
+<li>How do you get to it?</li>
+<li>What are the key components or interactions?</li>
+<li>Where does it take you?</li>
+</ul>
+</li>
+<li>Dont get bogged down with wireframes yet. they are still to concrete.</li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/1.4-chapter-05">Chapter 5 Risks and Rabbit Holes</a>
+<ul>
+<li>There are unknowns that could burn 2 weeks of the project.</li>
+<li>Remove unknown parts so that the well-understood parts can be assembled</li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/1.5-chapter-06">Chapter 6 Write the Pitch</a>
+<ul>
+<li>We've done the work to de-risk our project. Now we have to get the project out of our notes and into an easy to understand project</li>
+<li>5 ingredients to a pitch
+<ul>
+<li><strong>Problem</strong> — The raw idea, a use case, or something we’ve seen that motivates us to work on this</li>
+<li><strong>Appetite</strong> — How much time we want to spend and how that constrains the solution</li>
+<li><strong>Solution</strong> — The core elements we came up with, presented in a form that’s easy for people to immediately understand</li>
+<li><strong>Rabbit holes</strong> — Details about the solution worth calling out to avoid problems</li>
+<li><strong>No-gos</strong> — Anything specifically excluded from the concept: functionality or use cases we intentionally aren’t covering to fit the appetite or make the problem tractable</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Part 2 Betting
+<ul>
+<li><a href="https://basecamp.com/shapeup/2.1-chapter-07">Chapter 7 Bets, Not Backlogs</a>
+<ul>
+<li>Backlogs grow and never get completed</li>
+<li>Every Six weeks you look at the pitches from the last 6 weeks or any pitches someone has purposefully revived and is lobbying for</li>
+<li>Nothing else is on the table</li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/2.2-chapter-08">Chapter 8 Bet Six Weeks</a>
+<ul>
+<li>Its time to figure out which pitch we are going to bet on</li>
+<li>Working Six week cycles relieves us of having to play calendar tetris with everyones projects</li>
+<li>Theres 2 weeks of cool-down after every 6 week cycle</li>
+<li>We are betting, instead of planning</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Part 3 Building
+<ul>
+<li><a href="https://basecamp.com/shapeup/3.1-chapter-09">Chapter 9 Hand Over Responsibility</a>
+<ul>
+<li>You assign people projects, not tasks</li>
+<li>Done means deployed</li>
+<li>The start of the project is for everyone to figure out the lay of the land on their own</li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/3.2-chapter-10">Chapter 10 Get One Piece Done</a>
+<ul>
+<li>To expand on this, here are three criteria to think about when choosing what to build first:</li>
+<li>First, it should be <strong>core</strong>. The visibility toggle was core to the Clients in Projects concept. Without it, the other work wouldn’t mean anything. Contrast that with a more peripheral aspect of the project, like the ability to rename a client. Both were “required,” but one was more central and important to prove out early in the cycle. In the interview app, recording interview data was more core—more in the middle—than setting up a new research project.</li>
+<li>Second, it should be <strong>small</strong>. If the first piece of work isn’t small enough, there isn’t much benefit to carving it off from the rest. The point is to finish something meaningful in a few days and build momentum—to have something real to click on that shows the team is on the right track.</li>
+<li>Third, it should be <strong>novel</strong>. If two parts of the project are both core and small, prefer the thing that you’ve never done before. In the Clients in Projects feature, the UI for adding clients was mostly the same as the UI for adding regular users. Starting on that would have moved the project forward, but it wouldn’t have taught the team anything. It wouldn’t have eliminated uncertainty. Starting with the visibility toggle boosted everyone’s confidence because it proved that a new idea was going to work.</li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/3.3-chapter-11">Chapter 11 Map the Scopes</a>
+<ul>
+<li>Scope tasks into groups
+<ul>
+<li>Organize by structure, not by person</li>
+<li>these scopes become the language for the project</li>
+</ul>
+</li>
+<li>Scoping mapping isnt planning
+<ul>
+<li>they represent what can be done independently in a project</li>
+</ul>
+</li>
+<li>Three signs indicate when the scopes are right:
+<ul>
+<li>You feel like you can see the whole project and nothing important that worries you is hidden down in the details.</li>
+<li>Conversations about the project become more flowing because the scopes give you the right language.</li>
+<li>When new tasks come up, you know where to put them. The scopes act like buckets that you can easily lob new tasks into.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/3.4-chapter-12">Chapter 12 Show Progress</a>
+<ul>
+<li>tasks can be added later in a project so tasks done is a bad metric for progress</li>
+<li>estimates of tasks dont take uncertainty into account</li>
+<li>work lives on the hill
+<ul>
+<li><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fians-big-roam%2FE1PHWsRt9L?alt=media&#x26;token=4c0974af-a887-4395-96f3-471f438cd009"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/3.5-chapter-13">Chapter 13 Decide When to Stop</a>
+<ul>
+<li>When the end of the cycle approaches, the techniques we covered so far will put the team in a good position to finish and ship. The shaped work gave them guard rails to prevent them from wandering. They integrated one scope at a time so there isn’t half-finished work lying around. And all the most important problems have been solved because they prioritized those unknowns first when they sequenced the work.</li>
+<li><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fians-big-roam%2F9AuHwQ5t9r?alt=media&#x26;token=c7a4d0a1-78fc-408c-b382-9fb4f98043df"></li>
+</ul>
+</li>
+<li><a href="https://basecamp.com/shapeup/3.6-chapter-14">Chapter 14 Move On</a>
+<ul>
+<li>Let the storm pass<a href="https://basecamp.com/shapeup/3.6-chapter-14#let-the-storm-pass"> </a></li>
+<li>Stay debt-free</li>
+<li>Feedback needs to be shaped</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Notes
+<ul>
+<li>"Chapter 1 Introduction"
+<ul>
+<li>Team members feel like projects go on and on, with no end in sight.</li>
+<li>Founders ask themselves: “Why can’t we get features out the door like we used to in the early days?”</li>
+<li>Product managers can’t find time to think strategically about the product.</li>
+<li>From the first prototypes in July 2003 to launch in February 2004, David only worked ten hours a week. We knew we wouldn’t get anywhere with those ten hours of programming unless we used them very deliberately. Our intense focus on “hammering” the scope to fit within a given time budget was born under these constraints.</li>
+<li>My role shifted again, from design and product management to product strategy. I needed new language, like the word “shaping”, to describe the up-front design work we did to set boundaries and reduce risks on projects before we committed them to teams.</li>
+<li>Six weeks is long enough to build something meaningful start-to-finish and short enough that everyone can feel the deadline looming from the start, so they use the time wisely. The majority of our new features are built and released in one six-week cycle.</li>
+<li>Second, we <strong>shape the work</strong> before giving it to a team. A small senior group works in parallel to the cycle teams. They define the key elements of a solution before we consider a project ready to bet on.</li>
+<li>Instead of asking how much time it will <strong>take</strong> to do some work, we ask: How much time do we want to <strong>spend</strong>? How much is this idea worth? This is the task of shaping: narrowing down the problem and designing the outline of a solution that fits within the constraints of our appetite.</li>
+<li>Third, we <strong>give full responsibility</strong> to a small integrated team of designers and programmers. They define their own tasks, make adjustments to the scope, and work together to build vertical slices of the product one at a time.</li>
+</ul>
+</li>
+<li>"<a href="https://basecamp.com/shapeup/1.1-chapter-02">Chapter 2 Principles of Shaping</a>"
+<ul>
+<li>When we shape the work, we need to do it at the right level of abstraction: not too vague and not too concrete.
+<ul>
+<li>Wireframes are too concrete #Wireframe
+<ul>
+<li><strong>I’ll give a wireframe to my designer, and then I’m saying to her: “I know you’re looking at this, but that’s not what I want you to design. I want you to re-think it!” It’s hard to do that when you’re giving them this concrete thing.</strong></li>
+<li>That’s because making the interface <strong>just so</strong> can require solving hidden complexities and implementation details that weren’t visible in the mockup. When the scope isn’t variable, the team can’t reconsider a design decision that is turning out to cost more than it’s worth.</li>
+</ul>
+</li>
+<li>Words are too abstract</li>
+</ul>
+</li>
+<li>Property 1: It’s rough
+<ul>
+<li>Everyone can tell by looking at it that it’s unfinished. They can see the open spaces where their contributions will go.</li>
+</ul>
+</li>
+<li>Property 2: It’s solved
+<ul>
+<li>Despite being rough and unfinished, shaped work has been thought through. All the main elements of the solution are there at the macro level and they connect together.</li>
+</ul>
+</li>
+<li>Property 3: It’s bounded
+<ul>
+<li>Lastly, shaped work indicates what <strong>not</strong> to do. It tells the team where to stop.</li>
+</ul>
+</li>
+<li>example
+<ul>
+<li>We launched version three of Basecamp without a calendar feature. It had a “schedule” feature that just listed events one after the other without any kind of monthly, weekly or daily grid.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Soon after launch, customers started asking us to “add a calendar” to Basecamp - They didn't have an appetite to spend 6 months building these features that only 10% of customers would use - Dragging and dropping events between cells to move them - Wrapping multi-day events around the edge of the screen - Different views for monthly, weekly, or daily time scales - Dragging the edge of an event to change its duration - Color coding events for different categories - Handling different expectations for desktop vs. mobile interactions - they reduced the scope to a "dot grid" so they could accomplish the feature in 6 weeks: - <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fians-big-roam%2F-Kd2zwQw-X?alt=media&#x26;token=94d4b353-2eec-4070-89a4-d468244e0b5e" alt="this is the level of fidelity they used"> - this is the level of fidelity they used - Taken together, the <code>**roughness leaves room for the team to resolve all the details**</code>, while the <strong>solution and boundaries act like guard rails</strong>. They reduce risk and channel the team’s efforts, making sure they don’t build too much, wander around, or get stuck. - Shaping is primarily design work. The shaped concept is an interaction design viewed from the user’s perspective. It defines what the feature does, how it works, and where it fits into existing flows. - Steps to shaping - <strong>Set boundaries.</strong> First we figure out how much time the raw idea is worth and how to define the problem. This gives us the basic boundaries to shape into. - <strong>Rough out the elements.</strong> Then comes the creative work of sketching a solution. We do this at a higher level of abstraction than wireframes in order to move fast and explore a wide enough range of possibilities. The output of this step is an idea that solves the problem within the appetite but without all the fine details worked out. - <strong>Address risks and rabbit holes.</strong> Once we think we have a solution, we take a hard look at it to find holes or unanswered questions that could trip up the team. We amend the solution, cut things out of it, or specify details at certain tricky spots to prevent the team from getting stuck or wasting time. - <strong>Write the pitch</strong>. Once we think we’ve shaped it enough to potentially bet on, we package it with a formal write-up called a pitch. The pitch summarizes the problem, constraints, solution, rabbit holes, and limitations. The pitch goes to the betting table for consideration. If the project gets chosen, the pitch can be re-used at kick-off to explain the project to the team - Shaping is a closed-door, creative process. You might be alone sketching on paper or in front of a whiteboard with a close collaborator. There’ll be rough diagrams in front of you that nobody outside the room would be able to interpret. When working with a collaborator, you move fast, speak frankly and jump from one promising position to another. It’s that kind of private, rough, early work. - "<a href="https://basecamp.com/shapeup/1.2-chapter-03">Chapter 3 Set Boundaries</a>" - The conversation about building a feature always starts with a raw idea, like “customers are asking for group notifications.” Before we all go down the rabbit hole discussing ways we can solve it, we should first set some broad terms on the discussion to make it productive. - Whether we’re chomping at the bit or reluctant to dive in, it helps to explicitly define how much of our time and attention the subject deserves. Is this something worth a quick fix if we can manage? - We call this the appetite. You can think of the appetite as a time budget for a standard team size. - Small Batch: This is a project that a team of one designer and one or two programmers can build in one or two weeks. We batch these together into a six week cycle (more on that later). - Big Batch: This project takes the same-size team a full six-weeks. - An appetite is completely different from an estimate. Estimates start with a design and end with a number. Appetites start with a number and end with a design. We use the appetite as a creative constraint on the design process. - Tension between time, quality, and scope - With one week left, I can choose between fixing typos or adding a new section to a chapter. That’s the tension between time, quality, and scope. I don’t want to release a book with embarrassing typos, so I’ll choose to reduce the scope by leaving out the extra section. Without the pressure of the fixed deadline, I wouldn’t make the trade-off. If the scope wasn’t variable, I’d <strong>have</strong> to include the extra section. Then there’d be no time to fix the quality issues. - This story, and others like it, gave us a specific baseline to design against. Basecamp had an agenda view of events. It worked for listing major deadlines and milestones but it wasn’t good for resource scheduling because you couldn’t see empty spaces on it. We narrowed down the need from “do everything a calendar does” to “help me see free spaces so I can figure out when to schedule something.” - <a href="https://basecamp.com/shapeup/1.2-chapter-03#case-study-defining-calendar">link to story</a> - Chapter 4 - Highlight [page 19]: On the other end of the spectrum, projects that are too v - Highlight [page 19]: When a p - Highlight [page 20]: gh information to make trade-o's - Marker - Blank Page - Highlight [page 31]: First, we need to have the right people—or nobody—in the room. Either we’re working alone or with a trusted partner who can keep pace with us. Someone we can speak with in shorthand, who has the same background knowledge, and who we can be frank with as we jump between ideas. - Highlight [page 31]: Second, we need to avoid the wrong level of detail in the drawings and sketches. If we start with wireframes or speci0c visual layouts, we’ll get stuck on unnecessary details and we won’t be able to explore as broadly as we need to. - Highlight [page 32]: Where in the current system does the new thing 0t? How do you get to it? What are the key components or interactions? Where does it take you? - Highlight [page 32]: A breadboard is an electrical engineering prototype that has all the components and wiring of a real device but no industrial design. - Highlight [page 32]: Similarly, we can sketch and discuss the key components and connections of an interface idea without specifying a particular visual design - Highlight [page 32]: Places: These are things you can navigate to, like screens, dialogs, or menus that pop up. 2. affordances: These are things the user can act on, like buttons and 0elds. We consider interface copy to be an affordance, too. Reading it is an act that gives the user information for subsequent actions. 3. Connection lines: These show how the affordances take the user from place to place. - Highlight [page 36]: This example illustrates the level of thinking and the speed of movement to aim for during the breadboarding phase. Writing out the 3ows confronts us with questions we didn’t originally think of and stimulates design ideas without distracting us with unimportant visual choices. - Highlight [page 36]: A fat marker sketch is a sketch made with such broad strokes that adding detail is di<em>cult or impossible. We originally did this with larger tipped Sharpie markers on paper. Today we also do it on iPads with the pen size set to a large diameter. - Highlight [page 38]: Elements are the output - Highlight [page 39]: Working at the right “level of abstraction” not only ensures we move at the right speed, it also leaves this important room for creativity in the later stages - Highlight [page 40]: What we’ve done is landed on an approach for how to solve the problem. But there may be some signi0cant unknowns or things we need to address before we’d consider this safe to hand o' to a team to build successfully. - Highlight [page 42]: However, if there are any rabbit holes in the shaping—technical unknowns, unsolved design problems, or misunderstood interdependencies—the project could take multiple times the original appetite to complete. The right tail stretches out. - Highlight [page 43]: Does this require new technical work we’ve never done before? Are we making assumptions about how the parts 0t together? Are we assuming a design solution exists that we couldn’t come up with ourselves? Is there a hard decision we should settle in advance so it doesn’t trip up the team? - Highlight [page 44]: We liked the idea of the dividers, and the logic of loose versus grouped to-dos made sense to us. But when we looked closer we realized that we didn’t address how to display completed items. - Blank Page - Highlight [page 49]: 6: Write the Pitch - Highlight [page 49]: 1. Problem — The raw idea, a use case, or something we’ve seen that motivates us to work on this 2. Appetite — How much time we want to spend and how that constrains the solution 3. Solution — The core elements we came up with, presented in a form that’s easy for people to immediately understand 4. Rabbit holes — Details about the solution worth calling out to avoid problems 5. No-gos — Anything speci0cally excluded from the concept: functionality or use cases we intentionally aren’t covering to 0t the appetite or make the problem tractable - Highlight [page 50]: It’s critical to always present both a problem and a solution together. It sounds like an obvious point but it’s surprising how o4en teams, our own included, jump to a solution with the assumption that it’s obvious why it’s a good idea to build this thing. - Highlight [page 50]: Not only do we want to solve this use case, we want to come up with a way to do it in six weeks, not three months, orin the case of a small batch project—two weeks, not the whole six weeks. - Highlight [page 50]: Anybody can suggest expensive and complicated solutions. It takes work and design insight to get to a simple idea that 0ts in a small time box. Stating the appetite and embracing it as a constraint turns everyone into a partner in that process. - Highlight [page 51]: If the solution isn’t there, someone should go back and do the shaping work on the shaping track. It’s only ready to bet on when problem, appetite, and solution come together. Then you can scrutinize the 0t between problem and solution and judge whether it’s a good bet or not. - Highlight [page 55]: Sometimes addressing a rabbit hole just requires a few lines of text. - Highlight [page 56]: We prefer asynchronous communication by default and escalate to real-time only when necessary. This gives everyone the maximum amount of time under their own control for doing real work. That means the 0rst step for presenting a pitch is posting the write-up with all the ingredients above somewhere that stakeholders can read it on their own time. - Highlight [page 61]: Backlogs are a big weight we don’t need to carry. Dozens and eventually hundreds of tasks pile up that we all know we’ll never have time for. The growing pile gives us a feeling like we’re always behind even though we’re not. - Highlight [page 62]: don’t have to choose between a burdensome backlog and not remembering anything from the past. Everyone can still track pitches, bugs, requests, or things they want to do independently without a central backlog. Support can keep a list of requests or issues that come up more o4en than others. Product tracks ideas they hope to be able to shape in a future cycle. Programmers maintain a list of bugs they’d like to 0x when they have some time. There’s n - Highlight [page 62]: Regular but infrequent one-on-ones between departments help to cross-pollinate ideas for what to do next. For example, Support can tell Product about top issues they are seeing, which Product can then track independently as potential projects to shape. Maybe Product picks o' just one of those top issues to work on now. Then, in a future one-on-one, Support can lobby again for something that hasn’t yet gotten attention. - Highlight [page 62]: Really important ideas will come back to you. When’s the last time you forgot a really great, inspiring idea? And if it’s not that interesting—maybe a bug that customers are running into from time to time—it’ll come back to your attention when a customer complains again or a new - Highlight [page 63]: customer hits it. If you hear it once and never again, maybe it wasn’t really a problem. And if you keep hearing about it, you’ll be motivated to shape a solution and pitch betting time on it in the next cycle. - Blank Page - Highlight [page 65]: Working in cycles drastically simplifes this problem. A cycle gives us a standard project size both for shaping and scheduling. - Highlight [page 65]: We learned that two weeks is too short to get anything meaningful done. Worse than that, two-week cycles are extremely costly due to the planning overhead. The amount of work you get out of two weeks isn’t worth the collective hours around the table to “sprint plan” or the opportunity cost of breaking everyone’s momentum to re-group. - Highlight [page 65]: If the deadline is too distant and abstract at the start, teams will naturally wander and use time ine</em>ciently until the deadline starts to get closer and feel real. - Highlight [page 66]: During cool-down, programmers and designers on project teams are free to work on whatever they want. A4er working hard to ship their six-week projects, they enjoy having time that’s under their control. They use it to 0x bugs, explore new ideas, or try out new technical possibilities. - Highlight [page 67]: there’s an atmosphere of “waste no time” and the call rarely goes longer than an hour or two. Everyone has had a chance to study the pitches on their own time beforehand. Ad-hoc one-on-one conversations in the weeks before usually establish some context too. Once the call starts, it’s all about looking at the options that made it to the table and making decisions. - Highlight [page 67]: The highest people in the company are there. There’s no “step two” to validate the plan or get approval. And nobody else can jump in a4erward to interfere or interrupt the scheduled work. - Highlight [page 67]: The meeting is short, the options well-shaped, and the headcount low. When these criteria are met, the betting table becomes a place to exercise control over the direction of the product instead of a battle for resources or a plead for prioritization. - Highlight [page 67]: First, bets have a payout. We’re not just 0lling a time box with tasks until it’s full. We’re not throwing two weeks toward a feature and hoping for incremental progress. We intentionally shape work into a six-week box so there’s something meaningful 0nished at the end. The pitch de0nes a speci0c payout that makes the bet worth making. - Highlight [page 67]: Second, bets are commitments. If we bet six weeks, then we commit to giving the team the entire six weeks to work exclusively on that thing with no interruptions. We’re not trying to optimize every hour of a programmer’s time. We’re looking at the bigger movement of progress on the whole product a4er the six weeks. - Highlight [page 68]: Third, a smart bet has a cap on the downside. If we bet six weeks on something, the most we can lose is six weeks. We don’t allow ourselves to get into a situation where we’re spending multiples of the original estimate for something that isn’t worth that price. - Highlight [page 68]: When people ask for “just a few hours” or “just one day,” don’t be fooled. Momentum and progress are second-order things, like growth or acceleration. You can’t describe them with one point. You need an uninterrupted curve of points. When you pull someone away for one day to 0x a bug or help a di'erent team, you don’t just lose a day. You lose the momentum they built up and the time it will take to gain it back. Losing the wrong hour can kill a day. Losing a day can kill a week. - Highlight [page 68]: Teams have to ship the work within the amount of time that we bet. If they don’t 0nish, by default the project doesn’t get an extension. We intentionally create a risk that the project—as pitched—won’t happen. This sounds severe but it’s extremely helpful for everyone involved. - Highlight [page 68]: We think of this like a circuit breaker that ensures one project doesn’t - Highlight [page 69]: overload the system. One project that’s taking too long will never freeze us or get in the way of new projects that could be more important. - Highlight [page 69]: Instead of investing more time in a bad approach, the circuit breaker pushes us to reframe the problem. We can use the shaping track on the next six weeks to come up with a new or better solution that avoids whatever rabbit hole we fell into on the 0rst try. - Highlight [page 69]: There is nothing special about bugs that makes them automatically more important than everything else. - Highlight [page 69]: The question is: how severe are they? If we’re in a real crisis—data is being lost, the app is grinding to a halt, or a huge swath of customers are seeing the wrong thing—then we’ll drop everything to 0x it. But crises are rare - Highlight [page 69]: Use cool-down. - Highlight [page 69]: Bring it to the betting table. - Highlight [page 70]: Schedule a bug smash. - Highlight [page 70]: The key to managing capacity is giving ourselves a clean slate with every cycle. That means only betting one cycle at a time and never carrying scraps of old work over without 0rst shaping and considering them as a new potential bet. - Highlight [page 71]: Does the problem matter? - Highlight [page 71]: Is the appetite right? - Highlight [page 71]: Suppose a stakeholder says they aren’t interested in spending six weeks on a given pitch. The negotiation could go a couple directions from there: 1. Maybe the problem wasn’t articulated well enough, and there’s knowledge that the shaper can add to the conversation right now to swing opinion. - Highlight [page 71]: 2. Sometimes saying “no” to the time commitment is really saying no to something else. Maybe there’s something about the solution or the technical implementation they don’t like. - Highlight [page 71]: 3. The shaper might just let the idea go if interest is too low. - Highlight [page 71]: 4. The shaper might go back to the drawing table and either work on a smaller version (for a shorter appetite) or do more research if they believe the problem is compelling but they weren’t armed well enough to present it. - Highlight [page 71]: Is the solution attractive? - Highlight [page 72]: Is this the right time? - Highlight [page 72]: Are the right people available? - Blank Page - Highlight [page 75]: We don’t start by assigning tasks to anyone. Nobody plays the role of the “taskmaster” or the “architect” who splits the project up into pieces for other people to execute. - Highlight [page 75]: Splitting the project into tasks up front is like putting the pitch through a paper shredder. Everybody just gets disconnected pieces - Highlight [page 76]: When teams are assigned individual tasks, each person can execute their little piece without feeling responsible for judging how all the pieces 0t together. Planning up front makes you blind to the reality along the way. - Highlight [page 76]: Done means deployed - Highlight [page 78]: Work in the 0rst few days doesn’t look like “work.” No one is checking o' tasks. Nothing is getting deployed. There aren’t any deliverables to look at. O4en there isn’t even much communication between the team in the 0rst few days. There can be an odd kind of radio silence. Why? Because each person has their head down trying to 0gure out how the existing system works and which starting point is best. Everyone is busy learning the lay of the land and getting oriented. - Highlight [page 79]: Here we note an important di'erence between tasks we think we need to do at the start of a project and the tasks we discover we need to do in the course of doing real work. - Highlight [page 80]: O4en a task will appear in the process of doing something unrelated. Suppose a programmer is working on a database migration. While looking at the model to understand the associations, she might run into a method that needs to be updated for a di'erent part of the project later. She’s going to want to note a task to update that method later. - Highlight [page 80]: The way to really 0gure out what needs to be done is to start doing real work. That doesn’t mean the teams start by building just anything. They need to pick something meaningful to build 0rst. Something that is central to the project while still small enough to be done end-toend—with working UI and working code—in a few days. - Highlight [page 82]: What we want instead is to pick o' one slice of the project to integrate. Then when that’s done, the team has something tangible that they’ve proven to work (or not work and reconsider). Anyone can click through the interaction and see if the feature does what it should and if what it does is what they want. - Highlight [page 84]: Programmers don’t need to wait - Highlight [page 84]: There’s enough direction in the pitch for them to start working on back-end problems from the start. They won’t be able to take a piece of functionality to completion without knowing where it leads on the front-end, but there should be enough information in the pitch to inform foundational modeling decisions. - Highlight [page 86]: First make it work, then make it beautiful. - Highlight [page 88]: To expand on this, here are three criteria to think about when choosing what to build 0rst: First, it should be core. T - Highlight [page 88]: Second, it should be small. If the 0rst piece of work isn’t small enough, there isn’t much bene0t to carving it o' from the rest. The point is to 0nish something meaningful in a few days and build momentum—to have something real to click on that shows the team is on the right track. - Highlight [page 88]: Third, it should be novel. If two parts of the project are both core and small, prefer the thing that you’ve never done before. - Highlight [page 89]: When asked to organize tasks for a project, people o4en separate work by person or role: they’ll create a list for Designers and a list for Programmers. This leads to the problem we talked about in the previous chapter—people will complete tasks, but the tasks won’t add up to a 0nished part of the project early enough. - Highlight [page 89]: Each project is a wild territory that we have to walk through before we can - Highlight [page 90]: draw a map. By digging into the work, we 0gure out where the interdependencies are, how things are connected, and what we can slice apart. - Highlight [page 90]: We call these integrated slices of the project scopes . We break the overall scope (singular) of the project into separate scopes (plural) that can be 0nished independently of each other. In this chapter, we’ll see how the team maps the project into scopes and tackles them one by one. - Highlight [page 90]: When the team members take over the project, they start discovering tasks. Tasks are a natural starting point because they’re concrete and granular. It’s too early to organize them into higher level categories. It would be arti0cial to try and group them arbitrarily. It’s enough at the start just to capture a variety of things that need to happen. - Highlight [page 91]: As the team starts doing real work on the project they learn how the tasks are related and what the structure of the project is really like. Then they become able to factor the project into scopes. This is like dividing the map of the project into separate territories. - Highlight [page 91]: The map is a mental image. In practice, we de0ne and track the scopes as to-do lists. Each scope corresponds to a list name. Then any tasks for that scope go in that list. - Highlight [page 97]: Scope mapping isn’t planning. You need to walk the territory before you can draw the map. Scopes properly drawn are not arbitrary groupings or categories for the sake of tidiness - Highlight [page 97]: Scopes arise from interdependencies. The way parts depend on each other determines when you can say a given piece of the work is “done.” You don’t know what the work and interdependencies actually are in advance. - Highlight [page 97]: That’s why at the start of a project, we don’t expect to see accurate scopes. We’re more likely to see them at the end of week one or start of week two, a4er the team has had a chance to do some real work and 0nd the natural dividing lines in the anatomy of the problem. - Highlight [page 98]: Three signs indicate when the scopes are right: 1. You feel like you can see the whole project and nothing important that worries you is hidden down in the details. 2. Conversations about the project become more 3owing because the scopes give you the right language. 3. When new tasks come up, you know where to put them. The scopes act like buckets that you can easily lob new tasks into. - Highlight [page 98]: On the other hand, these three signs indicate the scopes should be redrawn: 1. It’s hard to say how “done” a scope is. This o4en happens when the tasks inside the scope are unrelated. If the problems inside the scope are unrelated, 0nishing one doesn’t get you closer to 0nishing the other. It’s good in this case to look for something you can factor out, like in the Dra4s example. 2. The name isn’t unique to the project, like “front-end” or “bugs.” We call these “grab bags” and “junk drawers.” This suggests you aren’t integrating enough, so you’ll never get to mark a scope “done” independent of the rest. For example, with bugs, it’s better to 0le them under a speci0c scope so you can know whether, for example, “Send” is done or if you need to 0x a couple bugs 0rst before putting it out of mind. 3. It’s too big to 0nish soon. If a scope gets too big, with too many tasks, it becomes like its own project with all the faults of a long master to-do list. Better to break it up into pieces that can be solved in less time, so there are victories along the way and boundaries between the problems to solve. - Highlight [page 99]: Layer cakes Most so4ware projects require some UI design and a thin layer of code below. Think of a database app where all you need to do is enter information, save it, and display it back. Work like this looks like a layer cake : You can judge the work by UI surface area because the backend work is thin and evenly distributed. In these cases, you can integrate all design and programmer tasks together in the same scope. This is a good default for most “information system” type apps. - Highlight [page 100]: If the back-end is complex enough, you can split it into separate concerns and then turn those into scopes as well. The goal in cases like this is to de0ne some di'erent things you can 0nish and integrate in stages, rather than waiting until the 11th hour with 0ngers crossed that it will all come together. - Highlight [page 100]: For both back-end and front-end icebergs, we always question them before accepting them as a fact. Is the complexity really necessary and irreducible? Do we need that fancy UI? Is there a di'erent way to build that back-end process so it has fewer interdependencies with the rest of the system? - Blank Page - Highlight [page 103]: Managers would rather be able to see the status themselves whenever they need to. We saw in the last chapter how organizing to-dos into scopes helps the team to stay on top of the work. But this doesn’t help the manager directly. There are a couple problems with to-dos that make them insu*cient for judging status. - Highlight [page 104]: Estimates don’t show uncertainty - Highlight [page 105]: Work is like a hill Every piece of work has two phases. First there’s the uphill phase of 0guring out what our approach is and what we’re going to do. Then, once we can see all the work involved, there’s the downhill phase of execution. - Highlight [page 108]: Scopes on the hill We can combine the hill with the concept of scopes from the last chapter. The scopes give us the language for the project (“Locate,” “Reply”) and the hill describes the status of each scope (“uphill,” “downhill”). - Highlight [page 109]: For managers, the ability to compare past states is the killer feature. It shows not only where the work stands but how the work is moving. - Highlight [page 112]: Build your way uphill Some teams struggle with backsliding when they 0rst try the hill chart. They consider a scope solved, move it the top of the hill, and later have to slide it back when they uncover an unexpected unknown. When this happens, it’s o4en because somebody did the uphill work with their head instead of their hands. Coming up with an approach in your head is just the 0rst step uphill. We o4en have a theory of how we’ll solve something—“I’ll just use that API”—and then the reality turns out to be more complicated. - Highlight [page 112]: It’s good to think of the 0rst third uphill as “I’ve thought about this,” the second third as “I’ve validated my approach,” and the 0nal third to the top as “I’m far enough with what I’ve built that I don’t believe there are other unknowns.” - Highlight [page 113]: That motivates the team to push the scariest work uphill 0rst. Once they get uphill, they’ll leave it there and look for anything critically important before 0nishing the downhill work to completion. It’s better to get a few critical scopes over the top early in the project and leave the screw-tightening for later. - Highlight [page 113]: Journalists have a concept called the “inverted pyramid.” The idea is their articles start with the most essential information at the top, then they add details and background information in decreasing order of importance. This allows print newspaper designers to get the crucial part of the story on the front page and cut the end as needed without losing anything essential. - Blank Page - Highlight [page 115]: When the end of the cycle approaches, the techniques we covered so far will put the team in a good position to 0nish and ship. The shaped work gave them guard rails to prevent them from wandering. They integrated one scope at a time so there isn’t half-0nished work lying around. And all the most important problems have been solved because they prioritized those unknowns 0rst when they sequenced the work. - Highlight [page 115]: Shipping on time means shipping something imperfect. There’s always some queasiness in the stomach as you look at your work and ask yourself: Is it good enough? Is this ready to release? - Highlight [page 116]: It helps to shi4 the point of comparison. Instead of comparing up against the ideal, compare down to baseline —the current reality for customers. How do customers solve this problem today, without this feature? What’s the frustrating workaround that this feature eliminates? How much longer should customers put up with something that doesn’t work or wait for a solution because we aren’t sure if design A might be better than design B? - Highlight [page 117]: As we come up with things to 0x, add, improve, or redesign during a project, we ask ourselves: Is this a “must-have” for the new feature? Could we ship without this? What happens if we don’t do this? Is this a new problem or a pre-existing one that customers already live with? How likely is this case or condition to occur? - Highlight [page 118]: When this case occurs, which customers see it? Is it core—used by everyone—or more of an edge case? What’s the actual impact of this case or condition in the event it does happen? When something doesn’t work well for a particular use case, how aligned is that use case with our intended audience? - Highlight [page 119]: QA generates discovered tasks that are all nice-to-haves by default. The designerprogrammer team triages them and, depending on severity and available time, elevates some of them to must-haves . The most rigorous way to do this is to collect incoming QA issues on a separate to-do list. Then, if the team decides an issue is a must-have, they drag it to the list for the relevant scope it a'ects. This helps the team see that the scope isn’t done until the issue is addressed. - Blank Page - Highlight [page 123]: Whether your team can adopt the method at once or not, I hope that the language and concepts in this book gave you some things to take home immediately: Shaped versus unshaped work Setting appetites instead of estimates Designing at the right level of abstraction Concepting with breadboards and fat marker sketches Making bets with a capped downside (the circuit breaker) and honoring them with uninterrupted time Choosing the right cycle length (six weeks) A cool-down period between cycles Breaking projects apart into scopes Downhill versus uphill work and communicating about unknowns Scope hammering to separate must-haves from nice-to-haves - Blank Page - Highlight [page 134]: Big enough to specialize A4er you hire more people, all of this 3uidity 3ips from an asset to a liability. Winging it with adhoc meetings and chat room discussions doesn’t work anymore. Coordination starts to eat up more of your time and things begin to slip through the cracks. This is when it makes sense to take on the structure of six-week cycles, cool-downs, and a formal betting table. With more people available to build, someone needs to carve out more time to do the work of 0guring out what to build. This could mean a founder spends more time shaping than building, or it could mean elevating an employee from doing in-cycle design work to more out-of-cycle shaping work. - Blank Page - Highlight [page 141]: Appetite The amount of time we want to spend on a project, as opposed to an estimate. Baseline What customers are doing without the thing we're currently building. Bet The decision to commit a team to a project for one cycle with no interruptions and an expectation to 1nish. Betting table A meeting during cool-down when stakeholders decide which pitches to bet on in the next cycle. Big batch One project that occupies a team for a whole cycle and ships at the end. Breadboard A UI concept that de1nes a(ordances and their connections without visual styling. Circuit breaker A risk management technique: Cancel projects that don't ship in one cycle by default instead of extending them by default. Cool-down A two-week break between cycles to do ad-hoc tasks, 1x bugs, and hold a betting table. Cycle A six week period of time where teams work uninterruptedly on shaped projects. De-risk Improve the odds of shipping within one cycle by shaping and removing rabbit holes. Discovered tasks Tasks the team discovers they need to do a5er they start getting involved in the real work. Downhill The phase of a task, scope or project where all unknowns are solved and only execution is le5. Fat marker sketch A sketch of a UI concept at very low 1delity drawn with a thick line. Hill chart A diagram showing the status of work on a spectrum from unknown to known to done. Iceberg A scope of work where the back-end work is much more complex than the UI or vice versa. Imagined tasks Work the teams decide they need to do a5er just thinking about the project. See discovered tasks. - Highlight [page 142]: Layer cake A scope of work you can estimate by looking at the surface area of the UI. Level of abstraction The amount of detail we leave in or out when describing a problem or solution. Must-haves Tasks that must be completed for a scope to be considered done. Nice-to-haves Task le5 for the end of the cycle. If there isn't time to do them, they get cut. Marked with a '~' at the beginning. Pitch A document that presents a shaped project idea for consideration at the betting table. Rabbit hole Part of a project that is too unknown, complex, or open-ended to bet on. Raw ideas Requests or feature ideas that are expressed in words and haven't been shaped. Scopes Parts of a project that can be built, integrated, and 1nished independently of the rest of the project. Scope hammering Forcefully questioning a design, implementation, or use case to cut scope and 1nish inside the 1xed time box. Shape Make an abstract project idea more concrete by de1ning key elements of the solution before betting on it. Six weeks The length of our cycles. Six weeks is long enough to 1nish something meaningful and short enough to feel the deadline from the beginning. Small batch A set of 1-2 week projects that a single team ships by the end of a six week cycle. Time horizon The longest period of time where we can feel a deadline pushing on us from the beginning. Six weeks. Uphill The phase of a task, scope or project where there are still unkowns or unsolved problems. See downhill.</p><span id="navId" data="29f392b6-0f60-48d7-bfff-87eb3b0ebc72"></span>
+<hr>
+<h2 class="text-delta">Table of contents</h2>
+<ul>
+<li>
+<a href="garden.ianjones.us/notes/a60b59d2-6987-4380-ba73-1bd5fa351392.html">Pitch-template</a>
+</li>
+</ul>
+
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+                
+                
+              </div>
+            
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+</body>
+</html>
